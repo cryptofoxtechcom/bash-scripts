@@ -1,12 +1,13 @@
 #!/bin/bash
 
-# Version: 1.0
+# Version: 1.01
 # Author: Cryptofox 
 # Description: A script that demonsinstalls django into an ubuntu server.
 # Usage: ./django-install.sh
 
 # Changelog:
 # Version 1.0 - [2023-07-21]: Initial release
+# Version 1.01 - [2023-07-21]: Added ALLOWED_HOSTS
 
 # Update and upgrade the system
 echo "Updating and upgrading the system..."
