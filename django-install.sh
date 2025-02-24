@@ -37,6 +37,13 @@ django-admin startproject $project_name
 # Navigate to the project directory
 cd $project_name
 
+# Get the server's IP address
+server_ip=$(hostname -I | awk '{print $1}')
+
+# Update ALLOWED_HOSTS in settings.py
+echo "Updating ALLOWED_HOSTS in settings.py..."
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \['$server_ip', 'localhost', '127.0.0.1'\]/" $project_name/settings.py
+
 # Start the Django development server
 echo "Starting Django development server..."
 python3 manage.py runserver 0.0.0.0:8000 &
