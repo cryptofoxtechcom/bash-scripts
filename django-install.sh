@@ -50,7 +50,7 @@ echo "Starting Django development server..."
 python3 manage.py runserver 0.0.0.0:8000 &
 
 # Wait for the server to start
-sleep 5
+sleep 7
 
 # Test the server by curling to localhost
 echo "Running a quick test by curling to localhost..."
