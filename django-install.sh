@@ -2,7 +2,7 @@
 
 # Version: 1.01
 # Author: Cryptofox 
-# Description: A script that demonsinstalls django into an ubuntu server.
+# Description: A script that installs django into an ubuntu server.
 # Usage: ./django-install.sh
 
 # Changelog:
