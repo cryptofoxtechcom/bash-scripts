@@ -1,7 +1,7 @@
 
 # Django Installation Script
 
-This guide explains how to use the provided script to install Django and set up a new Django project on an ubuntu server. All the best.
+This guide explains how to use the provided script to install Django and set up a new Django project on an ubuntu server. All the best...
 
 ## How to Use the Script
 
